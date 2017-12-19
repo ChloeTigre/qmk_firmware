@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
  [_DV] = { /* DVORAK */
   { KC_ESC,  KC_1,    KC_2,    KC_3,    KC_4,   KC_5,   KC_VOLD, KC_VOLU,    KC_6,    KC_7,   KC_8,   KC_9,    KC_0,    KC_LBRC,   KC_RBRC   },
-  { KC_TAB,  KC_QUOT, KC_COMM, KC_DOT,  KC_P,   KC_Y,   KC_BS,   KC_DEL,     KC_F,    KC_G,   KC_C,   KC_R,    KC_L,    KC_SLSH,   KC_EQL    },
+  { KC_TAB,  KC_QUOT, KC_COMM, KC_DOT,  KC_P,   KC_Y,   KC_BSPC, KC_DEL,     KC_F,    KC_G,   KC_C,   KC_R,    KC_L,    KC_SLSH,   KC_EQL    },
   { KC_CAPS, KC_A,    KC_O,    KC_E,    KC_U,   KC_I,   KC_ENT,  KC_ENT,     KC_D,    KC_H,   KC_T,   KC_N,    SC_L,    KC_SCLN,   KC_ENT    },
   { KC_LSFT, KC_SCLN, KC_Q,    KC_J,    KC_K,   KC_X,   KC_HOME, KC_END,     KC_B,    KC_M,   KC_W,   KC_V,    KC_Z,    KC_BSLASH, KC_MPLY   },
   { KC_LGUI, KC_LCTL, KC_LALT, MO(_FN), KC_SPC, KC_SPC, MO(_FN), MO(_FN),    KC_SPC , KC_PGDN,KC_RSFT,KC_RCTL, KC_RALT, KC_RGUI,   KC_MNXT   },

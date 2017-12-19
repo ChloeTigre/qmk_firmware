@@ -16,9 +16,9 @@
 #include "xd75.h"
 
 // Layer shorthand
-#define _QW 0
+#define _DV 0
 #define _FN 1
-
+#define _QW 255
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* QWERTY
